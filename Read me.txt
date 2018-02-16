@@ -1,0 +1,15 @@
+1) First generate keys
+javac KeyGeneration.java
+java KeyGeneration
+
+2) Start Listener using RSAReceiverDecrypt
+javac RSAReceiverDecrypt.java
+java RSAReceiverDecrypt
+
+3) Now send data to receiver using RSASenderEncrypt
+javac RSASenderEncrypt.java
+java RSASenderEncrypt
+
+NOTE: Run KeyGeneration, RSAReceiverDecrypt and RSASenderEncrypt on different terminals
+
+Thank you. :)
